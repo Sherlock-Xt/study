@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="001-rabbitmq-send" />
+        <module name="002-rabbitmq-receive" />
+        <module name="003-rabbitmq-boot-send" />
+        <module name="004-rabbitmq-boot-receive" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="001-rabbitmq-send" target="1.5" />
+      <module name="002-rabbitmq-receive" target="1.5" />
+      <module name="003-rabbitmq-boot-send" target="1.8" />
+      <module name="004-rabbitmq-boot-receive" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="003-rabbitmq-boot-send" options="-parameters" />
+      <module name="004-rabbitmq-boot-receive" options="-parameters" />
+    </option>
+  </component>
+</project>

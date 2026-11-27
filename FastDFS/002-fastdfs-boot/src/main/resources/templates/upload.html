@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+    <!--
+        文件上传的form表单
+        method必须为post，不然文件会以二进制在地址栏进行传输，enctype必须为multipart/form-data，不然不能读取二进制信息
+    -->
+
+    <form th:action="@{/upload}" method="post" enctype="multipart/form-data">
+        合同：<input type="file" name="uploadFile"><br>
+        <input type="hidden" th:value="${creditorId}" name="creditorId">
+        <input type="submit" value="上传文件">
+    </form>
+</body>
+</html>

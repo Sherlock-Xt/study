@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- spring注解、bean的处理器 -->
+    <!--
+        启动Spring的相关注解，因为SpringSession中使用到Spring的一些注解，可选代码
+         通常我们会使用<context:component-scan base-package="com"/> 进行包扫描
+         这个配置就包含了 <context:annotation-config/>的全部功能
+     -->
+    <context:annotation-config/>
+
+    <!-- Spring session 的配置类 -->
+    <!--
+       定义一个SpringSession的配置Bean，用于集成SpringSession
+    -->
+    <bean id="redisHttpSessionConfiguration" class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration" >
+        <property name="cookieSerializer" ref="defaultCookieSerializer" />
+    </bean>
+    <!--
+        配置cookie的序列化规则
+    -->
+    <bean id="defaultCookieSerializer" class="org.springframework.session.web.http.DefaultCookieSerializer" >
+        <!--设置cookie存在域名的根路径下，用于实现同域名不同项目的Session共享-->
+        <property name="cookiePath" value="/" />
+        <!--
+            设置cookie存在到根域名下，适合同根域名不同二级域名的session共享，合适我们Nginx
+            的多城市站点部署，类似58同城的Session共享
+        -->
+        <property name="domainName" value="myweb.com" />
+    </bean>
+
+    <!-- 配置jedis连接工厂，用于连接redis -->
+    <bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <property name="hostName" value="${redis.hostName}"/>
+        <property name="port" value="${redis.port}"/>
+        <property name="password" value="${redis.password}"/>
+    </bean>
+    <!--读取redis.properties属性配置文件-->
+    <context:property-placeholder location="classpath:redis.properties"/>
+</beans>

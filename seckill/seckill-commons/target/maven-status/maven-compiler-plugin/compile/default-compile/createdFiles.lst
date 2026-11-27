@@ -1,0 +1,4 @@
+com\seckill\model\Orders.class
+com\seckill\model\Goods.class
+com\seckill\commons\ReturnObject.class
+com\seckill\commons\Constants.class

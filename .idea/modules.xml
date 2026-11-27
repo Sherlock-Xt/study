@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MasterSlave/001-spring-start/001-spring-start.iml" filepath="$PROJECT_DIR$/MasterSlave/001-spring-start/001-spring-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MasterSlave/001-spring-start-proxy/001-spring-start-proxy.iml" filepath="$PROJECT_DIR$/MasterSlave/001-spring-start-proxy/001-spring-start-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSession/001-springsession-start/001-springsession-start.iml" filepath="$PROJECT_DIR$/SpringSession/001-springsession-start/001-springsession-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MasterSlave/002-boot-masterslave-proxy/002-boot-masterslave-proxy.iml" filepath="$PROJECT_DIR$/MasterSlave/002-boot-masterslave-proxy/002-boot-masterslave-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MasterSlave/002-boot-masterslave01/002-boot-masterslave01.iml" filepath="$PROJECT_DIR$/MasterSlave/002-boot-masterslave01/002-boot-masterslave01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FastDFS/002-fastdfs-boot/002-fastdfs-boot.iml" filepath="$PROJECT_DIR$/FastDFS/002-fastdfs-boot/002-fastdfs-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MasterSlave/003-boot-mycat/003-boot-mycat.iml" filepath="$PROJECT_DIR$/MasterSlave/003-boot-mycat/003-boot-mycat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/003-rabbitmq-boot-send/003-rabbitmq-boot-send.iml" filepath="$PROJECT_DIR$/rabbitmq/003-rabbitmq-boot-send/003-rabbitmq-boot-send.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/004-rabbitmq-boot-receive/004-rabbitmq-boot-receive.iml" filepath="$PROJECT_DIR$/rabbitmq/004-rabbitmq-boot-receive/004-rabbitmq-boot-receive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/01-springcloud-consumer/01-springcloud-consumer.iml" filepath="$PROJECT_DIR$/SpringCloud/01-springcloud-consumer/01-springcloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/01-springcloud-provider/01-springcloud-provider.iml" filepath="$PROJECT_DIR$/SpringCloud/01-springcloud-provider/01-springcloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/02-eureka-client-consumer/02-eureka-client-consumer.iml" filepath="$PROJECT_DIR$/SpringCloud/02-eureka-client-consumer/02-eureka-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/02-eureka-client-provider/02-eureka-client-provider.iml" filepath="$PROJECT_DIR$/SpringCloud/02-eureka-client-provider/02-eureka-client-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/02-eureka-server/02-eureka-server.iml" filepath="$PROJECT_DIR$/SpringCloud/02-eureka-server/02-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSession/02-springsession-boot/02-springsession-boot.iml" filepath="$PROJECT_DIR$/SpringSession/02-springsession-boot/02-springsession-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/03-eureka-cluster-consumer/03-eureka-cluster-consumer.iml" filepath="$PROJECT_DIR$/SpringCloud/03-eureka-cluster-consumer/03-eureka-cluster-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/03-eureka-cluster-provider/03-eureka-cluster-provider.iml" filepath="$PROJECT_DIR$/SpringCloud/03-eureka-cluster-provider/03-eureka-cluster-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/03-eureka-cluster-server9100/03-eureka-cluster-server9100.iml" filepath="$PROJECT_DIR$/SpringCloud/03-eureka-cluster-server9100/03-eureka-cluster-server9100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/03-eureka-cluster-server9200/03-eureka-cluster-server9200.iml" filepath="$PROJECT_DIR$/SpringCloud/03-eureka-cluster-server9200/03-eureka-cluster-server9200.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/04-ribbon-consumer/04-ribbon-consumer.iml" filepath="$PROJECT_DIR$/SpringCloud/04-ribbon-consumer/04-ribbon-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/04-ribbon-eureka-server/04-ribbon-eureka-server.iml" filepath="$PROJECT_DIR$/SpringCloud/04-ribbon-eureka-server/04-ribbon-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/04-ribbon-provider8081/04-ribbon-provider8081.iml" filepath="$PROJECT_DIR$/SpringCloud/04-ribbon-provider8081/04-ribbon-provider8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/04-ribbon-provider8082/04-ribbon-provider8082.iml" filepath="$PROJECT_DIR$/SpringCloud/04-ribbon-provider8082/04-ribbon-provider8082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/05-resttemplate-consumer/05-resttemplate-consumer.iml" filepath="$PROJECT_DIR$/SpringCloud/05-resttemplate-consumer/05-resttemplate-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/05-resttemplate-provider/05-resttemplate-provider.iml" filepath="$PROJECT_DIR$/SpringCloud/05-resttemplate-provider/05-resttemplate-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/06-hystrix-consumer/06-hystrix-consumer.iml" filepath="$PROJECT_DIR$/SpringCloud/06-hystrix-consumer/06-hystrix-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/06-hystrix-dashboard/06-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/SpringCloud/06-hystrix-dashboard/06-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/06-hystrix-eureka-server/06-hystrix-eureka-server.iml" filepath="$PROJECT_DIR$/SpringCloud/06-hystrix-eureka-server/06-hystrix-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/06-hystrix-provider/06-hystrix-provider.iml" filepath="$PROJECT_DIR$/SpringCloud/06-hystrix-provider/06-hystrix-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/07-feign-consumer/07-feign-consumer.iml" filepath="$PROJECT_DIR$/SpringCloud/07-feign-consumer/07-feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/07-feign-eureka-server/07-feign-eureka-server.iml" filepath="$PROJECT_DIR$/SpringCloud/07-feign-eureka-server/07-feign-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/07-feign-provider8081/07-feign-provider8081.iml" filepath="$PROJECT_DIR$/SpringCloud/07-feign-provider8081/07-feign-provider8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/07-feign-provider8082/07-feign-provider8082.iml" filepath="$PROJECT_DIR$/SpringCloud/07-feign-provider8082/07-feign-provider8082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/08-zuul-api-gateway/08-zuul-api-gateway.iml" filepath="$PROJECT_DIR$/SpringCloud/08-zuul-api-gateway/08-zuul-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/08-zuul-consumer/08-zuul-consumer.iml" filepath="$PROJECT_DIR$/SpringCloud/08-zuul-consumer/08-zuul-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/08-zuul-eureka-server/08-zuul-eureka-server.iml" filepath="$PROJECT_DIR$/SpringCloud/08-zuul-eureka-server/08-zuul-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/08-zuul-provider/08-zuul-provider.iml" filepath="$PROJECT_DIR$/SpringCloud/08-zuul-provider/08-zuul-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/seckill/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/month 7.iml" filepath="$PROJECT_DIR$/.idea/month 7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill/seckill/seckill.iml" filepath="$PROJECT_DIR$/seckill/seckill/seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill/seckill-goods-service/seckill-goods-service.iml" filepath="$PROJECT_DIR$/seckill/seckill-goods-service/seckill-goods-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill/seckill-orders-service/seckill-orders-service.iml" filepath="$PROJECT_DIR$/seckill/seckill-orders-service/seckill-orders-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill/seckill-timer/seckill-timer.iml" filepath="$PROJECT_DIR$/seckill/seckill-timer/seckill-timer.iml" />
+    </modules>
+  </component>
+</project>

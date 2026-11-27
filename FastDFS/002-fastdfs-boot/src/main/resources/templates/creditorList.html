@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>合同列表</h1>
+    <table>
+        <tr>
+            <td>序号</td>
+            <td>姓名</td>
+            <td>性别</td>
+            <td>地址</td>
+            <!--<td></td>-->
+        </tr>
+        <tr th:each="creditor:${creditorInfoList}">
+            <td th:text="${creditorStat.count}">序号</td>
+            <td th:text="${creditor.realName}">姓名</td>
+            <td th:text="${creditor.sex==1?'男':'女'}">性别</td>
+            <td th:text="${creditor.address}">地址</td>
+            <td>
+                <span th:if="${creditor.creditorFile== null}">
+                    <a th:href="@{|/toUpload?creditorId=${creditor.id}|}">上传合同</a>
+                </span>
+
+                <span th:if="${creditor.creditorFile!= null}" th:object="${creditor.creditorFile}">
+                    <a th:href="@{|/download?creditorFileId=*{id}|}">下载合同</a>
+                    <!--
+                        onclick 绑定点击事件
+                        注意：
+                          事件中的return 如果返回的true则允许浏览器的默认行为，如果返回的是false则阻止浏览器的默认行为
+                          如果使用jQuery的bind或on方法绑定的事件如果事件按方法中return 了false那么也会自动阻止浏览器的默认行为
+                          同时会阻止事件起泡
+                     -->
+                    <a th:href="@{|/deleteFile?creditorFileId=*{id}|}" target="myIframe" onclick="return confirm('确定要删除合同文件吗？')">删除合同</a>
+                </span>
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

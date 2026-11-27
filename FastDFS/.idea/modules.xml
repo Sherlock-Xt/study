@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/001-fastdfs-start/001-fastdfs-start.iml" filepath="$PROJECT_DIR$/001-fastdfs-start/001-fastdfs-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/002-fastdfs-boot/002-fastdfs-boot.iml" filepath="$PROJECT_DIR$/002-fastdfs-boot/002-fastdfs-boot.iml" />
+    </modules>
+  </component>
+</project>

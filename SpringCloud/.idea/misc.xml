@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01-springcloud-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/01-springcloud-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/02-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/02-eureka-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/02-eureka-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/03-eureka-cluster-server9100/pom.xml" />
+        <option value="$PROJECT_DIR$/03-eureka-cluster-server9200/pom.xml" />
+        <option value="$PROJECT_DIR$/03-eureka-cluster-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/03-eureka-cluster-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/04-ribbon-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/04-ribbon-provider8081/pom.xml" />
+        <option value="$PROJECT_DIR$/04-ribbon-provider8082/pom.xml" />
+        <option value="$PROJECT_DIR$/04-ribbon-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/05-resttemplate-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/05-resttemplate-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/06-hystrix-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/06-hystrix-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/06-hystrix-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/06-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/07-feign-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/07-feign-provider8081/pom.xml" />
+        <option value="$PROJECT_DIR$/07-feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/07-feign-provider8082/pom.xml" />
+        <option value="$PROJECT_DIR$/08-zuul-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/08-zuul-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/08-zuul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/08-zuul-api-gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>General</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

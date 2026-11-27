@@ -1,0 +1,9 @@
+rabbitmq\confirm\waitForConfirmsOrDie\Send.class
+rabbitmq\exchange\direct\Send.class
+rabbitmq\exchange\topic\Send.class
+rabbitmq\transaction\Send.class
+rabbitmq\Send.class
+rabbitmq\confirm\addConfirmListener\Send$1.class
+rabbitmq\confirm\waitingForConfirm\Send.class
+rabbitmq\confirm\addConfirmListener\Send.class
+rabbitmq\exchange\fanout\Send.class

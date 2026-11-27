@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/FastDFS/002-fastdfs-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/FastDFS/001-fastdfs-start/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill/seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill/seckill-timer/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill/seckill-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill/seckill-goods-service/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill/seckill-orders-service/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/001-rabbitmq-send/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/002-rabbitmq-receive/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/003-rabbitmq-boot-send/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/004-rabbitmq-boot-receive/pom.xml" />
+        <option value="$PROJECT_DIR$/git-project/001-git-test/pom.xml" />
+        <option value="$PROJECT_DIR$/MasterSlave/003-boot-mycat/pom.xml" />
+        <option value="$PROJECT_DIR$/MasterSlave/001-spring-start/pom.xml" />
+        <option value="$PROJECT_DIR$/MasterSlave/001-spring-start-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/MasterSlave/002-boot-masterslave01/pom.xml" />
+        <option value="$PROJECT_DIR$/MasterSlave/002-boot-masterslave-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/02-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/08-zuul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/08-zuul-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/07-feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/04-ribbon-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/06-hystrix-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/06-hystrix-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/08-zuul-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/06-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/07-feign-provider8081/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/07-feign-provider8082/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/08-zuul-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/04-ribbon-provider8081/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/04-ribbon-provider8082/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/07-feign-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/01-springcloud-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/01-springcloud-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/04-ribbon-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/05-resttemplate-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/05-resttemplate-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/06-hystrix-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/02-eureka-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/02-eureka-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/03-eureka-cluster-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/03-eureka-cluster-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/03-eureka-cluster-server9100/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud/03-eureka-cluster-server9200/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringSession/fastdfs-client-java/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringSession/02-springsession-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringSession/001-springsession-start/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-rework/seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-rework/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-rework/seckill-timer/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-rework/seckill-common/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-rework/seckill-goods-service/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-rework/seckill-orders-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+com\masterslave\RunMain.class
+com\masterslave\master\mapper\MasterStuMapper.class
+com\masterslave\slave\mapper\SlaveStuMapper.class
+com\masterslave\model\Stu.class
+com\masterslave\service\StuService.class

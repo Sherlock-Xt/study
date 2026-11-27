@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/01-springcloud-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-springcloud-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-eureka-client-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-eureka-client-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-eureka-cluster-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-eureka-cluster-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-eureka-cluster-server9100" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-eureka-cluster-server9200" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-ribbon-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-ribbon-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-ribbon-provider8081" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-ribbon-provider8082" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-resttemplate-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-resttemplate-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-hystrix-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-hystrix-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-hystrix-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-feign-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-feign-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-feign-provider8081" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-feign-provider8082" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-zuul-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-zuul-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-zuul-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-zuul-provider" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

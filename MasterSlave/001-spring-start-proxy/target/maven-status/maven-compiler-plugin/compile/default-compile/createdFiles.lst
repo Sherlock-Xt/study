@@ -1,0 +1,6 @@
+com\masterslave\datasource\MyDataSource.class
+com\masterslave\datasource\MyThreadLocal.class
+com\masterslave\RunMain.class
+com\masterslave\model\Stu.class
+com\masterslave\service\StuService.class
+com\masterslave\mapper\StuMapper.class
